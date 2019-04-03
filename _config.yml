@@ -218,6 +218,6 @@ sitemap:
 # branch: master
 deploy:
   type: git
-  repository: https://github.com/huweihuang/hexo-theme-huweihuang
-  branch: gh-pages
+  repository: https://github.com/wenjing-liu/wenjing-liu.github.io.git
+  branch: master
   message: Update CNAME
