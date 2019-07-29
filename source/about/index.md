@@ -1,26 +1,30 @@
 ---
 layout: "about"
 title: "About"
-date: 2017-10-03 10:48:33
-description: "走在成为极客的路上"
+date: 2019-07-29
+description: ""
 header-img: "/img/header_img/about.jpg"
 aplayer: true
 fixed: false
 ---
 
-### 一句话
+###
 
->Just do it !    (翻译：我只是个搞 IT的！哭笑脸)
+>
 
 ### 关于我
 
->一个莫名其妙的，喜欢敲代码，喜欢研究技术的，表面上高冷、不苟言笑的，
->
->偶尔又嬉皮笑脸，偶尔又特立独行的，双重性格的技术爱好者！
+> 一个曾经搞前端的
+> 一个曾经搞JS web全栈的
+> 一个现在专注于数据科学的工程师
 
 ### 兴趣方向
 
-> 容器云（Docker、Kubernetes等）相关生态技术研究。
+> 前端开发
+> JS 全栈
+> 机器学习
+> 深度学习
+> 数据分析
 
 ### 参与社区
  >
