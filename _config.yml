@@ -167,6 +167,24 @@ markdown:
     typographer: true
     quotes: '“”‘’'
 
+#markdown_it_plus config
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: false
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 
@@ -211,6 +229,15 @@ theme: huweihuang
 #sitemap
 sitemap:
   path: sitemap.xml
+
+# Latex
+math:
+  enable: true
+  # Default(true) will load mathjax/katex script on demand
+  # That is it only render those page who has 'mathjax: true' in Front Matter.
+  # If you set it to false, it will load mathjax/katex srcipt EVERY PAGE.
+  per_page: false
+  engine: mathjax
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
