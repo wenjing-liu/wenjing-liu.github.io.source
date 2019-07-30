@@ -15,7 +15,7 @@ layout: layout
                 post-container">
 
                 <%- page.content %>
-                
+
 
                 <hr>
                 <!-- Pager -->
@@ -37,8 +37,8 @@ layout: layout
                 <!--打赏-->
                 <% if(config['reward']) { %>
                     <div class="reward">
-                        <div class="reward-button">赏 <span class="reward-code"> 
-                            <span class="alipay-code"> <img class="alipay-img" src="<%= config['alipay'] %>"><b>支付宝打赏</b></span> 
+                        <div class="reward-button">赏 <span class="reward-code">
+                            <span class="alipay-code"> <img class="alipay-img" src="<%= config['alipay'] %>"><b>支付宝打赏</b></span>
                             <span class="wechat-code"> <img class="wechat-img" src="<%= config['wechatpay'] %>"><b>微信打赏</b> </span>
                             </span></div>
                         <p class="reward-notice"><%= config['reward_comment'] %></p>
@@ -55,8 +55,8 @@ layout: layout
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
                 <% } %>
                 <!--分享-->
-                <br>                       
-                
+                <br>
+
                 <!-- require APlayer -->
                 <% if(config['metingjs']) { %>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
@@ -124,10 +124,10 @@ layout: layout
                 <% } %>
 
             </div>
-            
+
             <!-- Tabe of Content -->
             <%- partial('_partial/toc') %>
-                
+
             <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -205,13 +205,13 @@ layout: layout
     <script type="text/javascript">
        (function(d, s) {
            var j, e = d.getElementsByTagName(s)[0];
-    
+
            if (typeof LivereTower === 'function') { return; }
-    
+
            j = d.createElement(s);
            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
            j.async = true;
-    
+
            e.parentNode.insertBefore(j, e);
        })(document, 'script');
     </script>
@@ -237,7 +237,7 @@ layout: layout
         anchors.options = {
           visible: 'hover',
           placement: 'left',
-          icon: 'ℬ'
+          icon: 'J'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
