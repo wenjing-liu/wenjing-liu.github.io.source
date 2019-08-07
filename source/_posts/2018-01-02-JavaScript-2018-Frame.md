@@ -2,7 +2,7 @@
 title: "JavaScript—2018 知识框架"
 catalog: true
 toc_nav_num: true
-date: 2018-05-12 10:51:24
+date: 2018-05-12
 subtitle: "Keep with new"
 header-img: "/img/article_header/article_header.png"
 tags:
